@@ -1,0 +1,20 @@
+{
+  "name": "image-upload-server",
+  "version": "1.0.0",
+  "description": "Servidor para fazer upload de imagens base64 usando Express e Axios.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
